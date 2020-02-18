@@ -1,0 +1,52 @@
+{
+    "header": [
+      {
+        "id": 1,
+        "name": "Walt Disney",
+        "descr": "текст про дисней"
+      },
+      {
+        "id": 2,
+        "name": "Союзмультфильм",
+        "descr": "текст про союзмульт"
+      },
+      {
+        "id": 3,
+        "name": "Metro Goldwyn Maers",
+        "descr": "текст про Metro Goldwyn Maer"
+      },
+      {
+        "id": 4,
+        "name": "Marvel",
+        "descr": "текст про Marvel"
+      },
+      {
+        "id": 5,
+        "name": "DC",
+        "descr": "текст про DC"
+      }
+    ],
+    "sidebar": [
+      {
+        "id": 1,
+        "label": "Черепхи"
+      },
+      {
+        "id": 1,
+        "label": "Простоквашино"
+      }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "title": "Черепхи",
+        "text": "инфа о черепахах"
+      },
+      {
+        "id": 1,
+        "title": "Простоквашино",
+        "text": "инфа о простоквашино"
+      }
+    ]
+}
+  
