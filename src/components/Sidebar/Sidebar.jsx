@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 import './Sidebar.scss'
 
@@ -27,13 +28,9 @@ class Sidebar extends React.Component {
             <div className="sidebar">
                 <h2 className="sidebar--title">Мульты</h2>
                 <ul>
-                    <li><a href="#">Черепашки Ниндзя</a></li>
-                    <li><a href="#">Том и Джери</a></li>
-                    <li><a href="#">Простоквашино</a></li>
-                    <li><a href="#">4</a></li>
                     {
                     this.state.cartoons.map(cartoon => {
-                       return <li key={cartoon.id}><a href="#">{cartoon.label}</a></li>
+                       return <li key={cartoon.id}><Link to={cartoon.link}>{cartoon.label}</Link></li>
                     })
                     }
                     

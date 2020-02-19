@@ -1,52 +1,66 @@
 {
-    "header": [
-      {
-        "id": 1,
-        "name": "Walt Disney",
-        "descr": "текст про дисней"
-      },
-      {
-        "id": 2,
-        "name": "Союзмультфильм",
-        "descr": "текст про союзмульт"
-      },
-      {
-        "id": 3,
-        "name": "Metro Goldwyn Maers",
-        "descr": "текст про Metro Goldwyn Maer"
-      },
-      {
-        "id": 4,
-        "name": "Marvel",
-        "descr": "текст про Marvel"
-      },
-      {
-        "id": 5,
-        "name": "DC",
-        "descr": "текст про DC"
-      }
-    ],
-    "sidebar": [
-      {
-        "id": 1,
-        "label": "Черепхи"
-      },
-      {
-        "id": 1,
-        "label": "Простоквашино"
-      }
-    ],
-    "cards": [
-      {
-        "id": 1,
-        "title": "Черепхи",
-        "text": "инфа о черепахах"
-      },
-      {
-        "id": 1,
-        "title": "Простоквашино",
-        "text": "инфа о простоквашино"
-      }
-    ]
+  "header": [
+    {
+      "name": "Главная",
+      "link": "/home"
+    },
+    {
+      "name": "Walt Disney",
+      "link": "/walt-disney"
+    },
+    {
+      "name": "Союзмультфильм",
+      "link": "/souzmyltflm"
+    },
+    {
+      "name": "Metro Goldwyn Maers",
+      "link": "/metro-goldwyn-maer"
+    },
+    {
+      "name": "Marvel",
+      "link": "/marvel"
+    },
+    {
+      "name": "DC",
+      "link": "/dc"
+    }
+  ],
+  "sidebar": [
+    {
+      "label": "Черепашки Ниндзя",
+      "link": "/ninja-turtles",
+      "src": "",
+      "alt": "черепашки ниндзя"
+    },
+    {
+      "label": "Простоквашино",
+      "link": "/prostokvashino",
+      "src": "",
+      "alt": "Простоквашино"
+    },
+    {
+      "label": "Том и Джерри",
+      "link": "/tom-and-djerry",
+      "src": "",
+      "alt": "Том и Джерри"
+    },
+    {
+      "label": "Человек Паук",
+      "link": "/spider-man",
+      "src": "",
+      "alt": "Человек паук"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "title": "Черепхи",
+      "text": "инфа о черепахах"
+    },
+    {
+      "id": 1,
+      "title": "Простоквашино",
+      "text": "инфа о простоквашино"
+    }
+  ]
 }
-  
