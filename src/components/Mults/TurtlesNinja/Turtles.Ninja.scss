@@ -1,0 +1,32 @@
+.miniCard{
+    display: flex;
+    &--title{
+        text-align: center;
+    }
+    &__card{
+        position: relative;
+        z-index: 1;
+        width: 300px;
+        height: 500px;
+        background: linear-gradient(#bdf, #def 20%, #7ac 55%);
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    &__hide{
+        // transform: translateX(-100%);
+        width: 300px;
+        height: 500px;
+        background: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        & span {
+            display: block;
+            padding: 10px;
+        }
+    }    
+    & img {
+        width: 300px;
+    }
+}

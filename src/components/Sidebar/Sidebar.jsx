@@ -30,7 +30,7 @@ class Sidebar extends React.Component {
                 <ul>
                     {
                     this.state.cartoons.map(cartoon => {
-                       return <li key={cartoon.id}><Link to={cartoon.link}>{cartoon.label}</Link></li>
+                       return <li key={cartoon.id}><Link to={cartoon.link} className="sidebar--link"><span></span><span></span><span></span><span></span>{cartoon.label}</Link></li>
                     })
                     }
                     
