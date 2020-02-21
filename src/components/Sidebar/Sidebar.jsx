@@ -29,8 +29,8 @@ class Sidebar extends React.Component {
                 <h2 className="sidebar--title">Мульты</h2>
                 <ul>
                     {
-                    this.state.cartoons.map(cartoon => {
-                       return <li key={cartoon.id}><Link to={cartoon.link} className="sidebar--link"><span></span><span></span><span></span><span></span>{cartoon.label}</Link></li>
+                    this.state.cartoons.map((cartoon, index) => {
+                       return <li key={index}><Link to={cartoon.link} className="sidebar--link"><span></span><span></span><span></span><span></span>{cartoon.label}</Link></li>
                     })
                     }
                     

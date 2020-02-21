@@ -1,0 +1,9 @@
+.aboutBox__more {
+    width: 500px;
+    min-height: calc(100vh - 230px);
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX( -50%) 
+}

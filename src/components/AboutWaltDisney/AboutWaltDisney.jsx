@@ -1,25 +1,42 @@
 import React from 'react'
 
 import Button from '../Button/Button'
+import AboutBox from '../AboutBox/AboutBox'
 
 import './AboutWaltDisney.scss'
 
 class AboutWaltDisney extends React.Component {
 
     state={
-        show: false
+        more: false,
+        prize: false,
+        top: false
     }
 
     moreClick = () =>{
         this.setState({
-            show: !this.state.show
+            more: !this.state.more
+        })
+    }
+
+    prizeClick = () =>{
+        this.setState({
+            prize: !this.state.prize
+        })
+    }
+
+    topClick = () =>{
+        this.setState({
+            top: !this.state.top
         })
     }
 
 
     render(){
 
-        const more = this.state.show && <div className="aboutBox__more"></div>
+        const more = this.state.more && <div><AboutBox /></div>
+        const prize = this.state.prize && <div><AboutBox /></div>
+        const top = this.state.top && <div><AboutBox /></div>
 
         return (
             <div className="aboutBox">
@@ -30,9 +47,13 @@ class AboutWaltDisney extends React.Component {
                 <p>Штаб-квартира компании Уолта Диснея и основные производственные мощности сосредоточены в подразделении Disney Studios (студия Уолта Диснея) в городе Бербанк, штат Калифорния, США.</p>
                 <p>Компания Уолта Диснея входит в промышленный индекс Доу-Джонса. Рыночная капитализация на ноябрь 2019 года — 240 млрд долларов.</p>
                 {more}
-                <Button onClick={this.moreClick} buttonName="Подробнее"/>
-                <Button buttonName="Премии"/>
-                <Button buttonName="топ"/>
+                {prize}
+                {top}
+                <div className="aboutBox__buttons">
+                    <Button onClick={this.moreClick} buttonName="Подробнее"/>
+                    <Button onClick={this.prizeClick} buttonName="Премии"/>
+                    <Button onClick={this.topClick} buttonName="топ"/>
+                </div>    
             </div>
         )
     }    

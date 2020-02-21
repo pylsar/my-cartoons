@@ -16,18 +16,14 @@ $whiteText: snow;
         align-items: center;
         justify-content: center;
     }
-    &__more{
-        width: 500px;
-        min-height: calc(100vh - 130px);
-        background-color: yellow;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX( -50%) 
-    }
     p{
         color: black;
         padding: 20px;
+    }
+    &__buttons{
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
     }
 }
 
