@@ -1,4 +1,11 @@
 My React project 
+Технологии которые использую:
+React
+React router
+Hooks
+Axios
+SCSS
+БЭМ
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
