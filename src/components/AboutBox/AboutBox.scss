@@ -19,6 +19,26 @@
         text-transform: uppercase;
         font-size: 32px;
         font-weight: bold;
+        &:hover {
+            box-shadow: 10px 0px 30px black;
+        }
+        &:hover span:nth-child(1){
+            color: white;
+            animation: 1s firstletter;
+        }
+        &:hover span:nth-child(2){
+            color: white;
+            animation: 2s secondletter;
+        }
+        &:hover span:nth-child(3){
+            color: white;
+            animation: 3s thirdletter;
+        }
+        &:hover span:nth-child(4){
+            color: white;
+            animation: 4s fourthletter;
+        }
+
     }
     & h2{
         padding: 20px;
@@ -32,7 +52,46 @@
         right: 15px;
         &:hover{
             transform: rotate(90deg);
+            transition: transform .5s ease-in
         }
     }
+    & p {
+        text-align: center;
+        font-size: 20px;
+    }
     
+}
+
+@keyframes firstletter{
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+
+@keyframes secondletter{
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes thirdletter{
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+@keyframes fourthletter{
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
 }
