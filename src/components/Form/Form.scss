@@ -10,7 +10,6 @@
         justify-content: center;
         &__box{
             padding: 20px;
-            border: 1px solid blue;
             width: 400px;
             &--labeltextarea{
                 display: block;
@@ -31,11 +30,13 @@
                 border: 2px solid black;
                 outline: none;
                 border-radius: 6px;
+                &:hover {
+                    background: gray;
+                }
             }
         }
         & img{
-            max-height: 400px;
-            border: 1px solid red;
+            max-height: 406px;
         }
         
     }
