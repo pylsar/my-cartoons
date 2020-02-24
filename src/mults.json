@@ -1,10 +1,6 @@
 {
   "header": [
     {
-      "name": "Главная",
-      "link": "/home"
-    },
-    {
       "name": "Walt Disney",
       "link": "/walt-disney"
     },

@@ -23,14 +23,9 @@ class Header extends React.Component {
 
         return (
             <header className="header">
-                <img className="header__logo" src="#" alt="logo"/>
+                <Link to="/"className="header__logo"><img className="header__logo--img" src="" alt="logo" /></Link>
                 <nav>
                     <ul className="header__list">
-                        {/* <li><Link to="/home">Главная</Link></li>
-                        <li><Link to="/walt-disney">история Walt Disney</Link></li>
-                        <li><Link to="/souzmyltflm">история Союз Мультфильм</Link></li>
-                        <li><Link to="/metro-goldwyn-maer">история Goldwin Maers</Link></li>
-                        <li><Link to="/marvel">история Marvil</Link></li> */}
                         {this.state.cartoons.map((cartoon, index) => {
                             return (
                                 <li key={index}><Link to={cartoon.link} className="header--link">{cartoon.name}</Link></li>

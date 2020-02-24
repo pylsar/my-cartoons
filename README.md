@@ -4,6 +4,7 @@ React
 React router
 Hooks
 Axios
+json server на 3001 порту
 SCSS
 БЭМ
 

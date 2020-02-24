@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Switch, Route} from 'react-router-dom'
 
-import Home from '../Home/Home'
+import Form from '../Form/Form'
 import AboutWaltDisney from '../AboutWaltDisney/AboutWaltDisney'
 import AboutSouzMult from '../AboutSoyuzMult/AboutSouzMult'
 import AboutMertoGoldwynMaer from '../AboutMetroGoldwynMaer/AboutMetroGoldwynMaer'
@@ -16,7 +16,7 @@ const Content = () => {
     return (
         <Switch>
         <div className="content">
-            <Route path="/home" component={Home} exact />
+            <Route path="/" component={Form} exact />
             <Route path="/walt-disney" component={AboutWaltDisney} exact />
             <Route path="/souzmyltflm" component={AboutSouzMult} exact />
             <Route path="/metro-goldwyn-maer" component={AboutMertoGoldwynMaer} exact />

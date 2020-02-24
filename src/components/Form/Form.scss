@@ -1,0 +1,43 @@
+.form{
+    padding: 20px;
+    &--subscription{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__container{
+        display: flex;
+        justify-content: center;
+        &__box{
+            padding: 20px;
+            border: 1px solid blue;
+            width: 400px;
+            &--labeltextarea{
+                display: block;
+                margin: 10px 0px;
+                text-align: center;
+            }
+            & textarea {
+                border: 2px solid black;
+                border-radius: 6px;
+                outline: none;
+                display: block;
+                margin: 10px auto;
+            } 
+            & button{
+                display: block;
+                padding: 5px 20px;
+                margin: 0 auto;
+                border: 2px solid black;
+                outline: none;
+                border-radius: 6px;
+            }
+        }
+        & img{
+            max-height: 400px;
+            border: 1px solid red;
+        }
+        
+    }
+}
+
