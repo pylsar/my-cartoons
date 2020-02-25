@@ -22,7 +22,10 @@ class TurtlesNinja extends React.Component {
                 <div className="miniCard__card">
                     <h2 className="miniCard--title">clock</h2>
                     <img src="https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt=""></img>
-                    <Button buttonName={this.state.cardShow ? '<< Вернуть как было' : 'Подробнее >>'} onClick={this.cardHandleClick}/>
+                    <Button className="miniCard__btn"
+                        buttonName={this.state.cardShow ? '<< Вернуть как было' : 'Подробнее >>'}
+                        onClick={this.cardHandleClick}
+                    />
                 </div>    
 
                 {this.state.cardShow && 

@@ -1,12 +1,13 @@
 My React project 
 Технологии которые использую:
-React
-React router
-Hooks
-Axios
-json server на 3001 порту
-SCSS
-БЭМ
+    React
+    React router
+    Hooks
+    Axios
+    json server на 3001 порту
+    SCSS
+    PropTypes
+    БЭМ
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,4 +1,5 @@
 import React, {useState, Fragment} from 'react'
+import PropTypes from 'prop-types'
 
 import './AboutBox.scss'
 import closeIcon from '../../assets/img/close.svg'
@@ -23,6 +24,12 @@ const AboutBox = ( {title, link} ) => {
         )}  
         </Fragment>
     )
+}
+
+
+AboutBox.propTypes = {
+    title: PropTypes.string.isRequired,
+    link: PropTypes.string.isRequired
 }
 
 export default AboutBox

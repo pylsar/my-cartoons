@@ -61,7 +61,7 @@ class Form extends React.Component {
                             type="number"
                             value={this.state.value}
                         />
-                        <label htmlFor="text" className="form__container__box--labeltextarea">Type Here</label>
+                        <label htmlFor="text" className="form__container__box--labeltextarea">Type Here:</label>
                         <textarea 
                             id="text" 
                             rows="8" 
@@ -81,5 +81,7 @@ class Form extends React.Component {
         )
     }
 }
+
+
 
 export default Form

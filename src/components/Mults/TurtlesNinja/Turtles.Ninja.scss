@@ -26,4 +26,13 @@
     & img {
         width: 300px;
     }
+    &__btn {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background: red;
+        outline: none;
+        border: none;
+    }
 }
