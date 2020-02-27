@@ -14,7 +14,7 @@ class Sidebar extends React.Component {
     componentDidMount(){
         axios.get('http://localhost:3001/sidebar')
             .then(res => {
-                console.log(res.data)
+                // console.log(res.data)
                 this.setState({
                     cartoons: res.data
                 })

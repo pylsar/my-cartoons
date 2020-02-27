@@ -1,5 +1,7 @@
 .miniCard{
+    position: relative;
     display: flex;
+    padding: 20px 40px;
     &--title{
         text-align: center;
     }
@@ -22,7 +24,18 @@
             display: block;
             padding: 10px;
         }
-    }    
+    } 
+    &__choose{
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        & ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: calc(100vh - 130px);
+        }
+    }   
     & img {
         width: 300px;
     }
