@@ -1,7 +1,9 @@
 import React, {Fragment} from 'react'
 import axios from 'axios'
+import {Link} from 'react-router-dom'
 
 import './MultChoose.scss'
+import LeoIcon from '../../assets/img/leonardo.png'  //???????????
 
 class MultChose extends React.Component{
 
@@ -22,7 +24,7 @@ class MultChose extends React.Component{
         return (
             <Fragment>
             {this.state.ninjas.map((ninja, index) => {
-                return <li key={index}><a href="#">{ninja.name}</a></li>
+                return <li key={index}><Link to={ninja.link}>{ninja.name}<img src={ninja.src} alt={ninja.name}/></Link></li>
             })}
             </Fragment>
         )

@@ -49,16 +49,24 @@
   ],
   "ninja": [
     {
-      "name": "Леонардо"
+      "name": "Леонардо",
+      "link": "/ninja-turtles/leonardo",
+      "src": "/assets/img/leonardo"
     },
     {
-      "name": "Донателло"
+      "name": "Донателло",
+      "link": "/ninja-turtles/donatello",
+      "src": "src/assets/img/donatello"
     },
     {
-      "name": "Рафаэль"
+      "name": "Рафаэль",
+      "link": "/ninja-turtles/rafael",
+      "src": "/assets/img/rafel"
     },
     {
-      "name": "Микелладжелло"
+      "name": "Микеланджело",
+      "link": "/ninja-turtles/mikelandjelo",
+      "src": "/assets/img/mikelandjelo"
     }
   ]
 }
