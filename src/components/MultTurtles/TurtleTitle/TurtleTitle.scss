@@ -1,0 +1,23 @@
+.turtle--title{
+    position: absolute;
+    top: 15px;
+    left: 25%;
+    font-weight: bold;
+    font-size: 30px;
+    transform: translateX(-50%);
+    animation: turtleTitle 2s;
+    font-family: Comics;
+}
+
+@keyframes turtleTitle {
+    0%{
+      opacity: 0;
+    }
+    80%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+    
