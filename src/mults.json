@@ -51,22 +51,22 @@
     {
       "name": "Леонардо",
       "link": "/ninja-turtles/leonardo",
-      "src": "/assets/img/leonardo"
+      "src": "leonardo"
     },
     {
       "name": "Донателло",
       "link": "/ninja-turtles/donatello",
-      "src": "src/assets/img/donatello"
+      "src": "donatello"
     },
     {
       "name": "Рафаэль",
       "link": "/ninja-turtles/rafael",
-      "src": "/assets/img/rafel"
+      "src": "rafael"
     },
     {
       "name": "Микеланджело",
       "link": "/ninja-turtles/mikelandjelo",
-      "src": "/assets/img/mikelandjelo"
+      "src": "mikelandjelo"
     }
   ]
 }
