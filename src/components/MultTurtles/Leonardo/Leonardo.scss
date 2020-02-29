@@ -1,0 +1,51 @@
+.turtle{
+  position: relative;
+    &--title{
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: turtleTitle 2s;
+    }
+    &__box {
+        display: flex;
+        & img {
+            animation: turtlePic 1s;
+        }
+        &__content {
+            animation: turtleText 1s;
+        }
+    }
+}
+ 
+  @keyframes turtleTitle {
+    0%{
+      opacity: 0;
+    }
+    80%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+    
+  @keyframes turtlePic {
+    0%{
+       transform: translateX(-100%);
+    }
+    100%{
+       transform: translateX(0);
+    }
+  }
+
+  @keyframes turtleText {
+    0%{
+      transform: translateY(100%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+  
+  

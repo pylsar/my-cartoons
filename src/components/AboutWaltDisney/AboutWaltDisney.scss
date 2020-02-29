@@ -1,6 +1,3 @@
-$button: #469bf0;
-$whiteText: snow;
-
 .aboutBox{
     display: flex;
     flex-direction: column;
@@ -18,6 +15,10 @@ $whiteText: snow;
         display: flex;
         align-items: center;
         justify-content: center;
+        & img {
+            width: 50px;
+            margin-right: 20px;
+        }
     }
     p{
         color: black;
@@ -37,5 +38,6 @@ $whiteText: snow;
             margin-right: 30px;
         }
     }
+   
 }
 

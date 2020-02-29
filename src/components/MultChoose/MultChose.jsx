@@ -23,7 +23,7 @@ class MultChose extends React.Component{
         return (
             <Fragment>
             {this.state.ninjas.map((ninja, index) => {
-                return <li key={index}><Link to={ninja.link}>{ninja.name}<img src={require(`../../assets/img/${ninja.src}.png`)} alt={ninja.name}/></Link></li>
+                return <li key={index}><Link to={ninja.link}><img src={require(`../../assets/img/${ninja.src}.png`)} alt={ninja.name}/></Link></li>
             })}
             </Fragment>
         )

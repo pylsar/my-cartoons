@@ -16,13 +16,10 @@
     &__hide{
         width: 300px;
         height: 500px;
-        background: blue;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        & span {
-            display: block;
-            padding: 10px;
+        background: linear-gradient(#bdf, #def 20%, #7ac 55%);
+        padding: 10px 20px;
+        & p {
+            text-indent: 25px;
         }
     } 
     &__choose{
@@ -34,6 +31,10 @@
             flex-direction: column;
             justify-content: space-between;
             height: calc(100vh - 130px);
+            margin-right: 80px;
+            & img {
+                max-width: 100px;
+            }
         }
     }   
     & img {
