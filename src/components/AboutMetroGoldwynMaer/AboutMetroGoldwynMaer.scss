@@ -1,0 +1,24 @@
+.mgm{
+    position: relative;
+    padding: 10px;
+    &--logo{
+        position: absolute;
+        top: -70px;
+        left: -10px;
+        width: 200px;
+    }
+    &__box{
+
+        &__text{
+            padding: 10px 20px;
+        }
+    }
+    &--oscar{
+        height: 300px;
+        float: right;
+    }
+}
+
+
+
+
