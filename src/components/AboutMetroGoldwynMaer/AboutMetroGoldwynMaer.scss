@@ -6,6 +6,7 @@
         top: -70px;
         left: -10px;
         width: 200px;
+        z-index: 100;
     }
     &__box{
 
@@ -16,6 +17,28 @@
     &--oscar{
         height: 300px;
         float: right;
+    }
+    &__btn{
+        display: block;
+        width: 150px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    &__popup{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 50px);
+        background: violet;
+        overflow: hidden;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & h3 {
+            margin-top: 10px;
+        }
     }
 }
 
