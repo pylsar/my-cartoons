@@ -1,14 +1,6 @@
 .turtle{
   position: relative;
-    // &--title{
-    //     position: absolute;
-    //     top: 15px;
-    //     left: 25%;
-    //     font-weight: bold;
-    //     font-size: 30px;
-    //     transform: translateX(-50%);
-    //     animation: turtleTitle 2s;
-    // }
+  font-family: 'Pacifico', sans-serif;
     &__box {
         display: flex;
         & img {
@@ -16,22 +8,16 @@
             animation: turtlePic 1s;
         }
         &__content {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
             animation: turtleText 1s;
+        }
+        &__text{
+          padding: 20px 40px 20px 0px;
         }
     }
 }
- 
-  // @keyframes turtleTitle {
-  //   0%{
-  //     opacity: 0;
-  //   }
-  //   80%{
-  //     opacity: 0;
-  //   }
-  //   100%{
-  //     opacity: 1;
-  //   }
-  // }
     
   @keyframes turtlePic {
     0%{

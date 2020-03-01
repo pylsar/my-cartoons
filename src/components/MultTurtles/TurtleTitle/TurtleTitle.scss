@@ -1,12 +1,13 @@
 .turtle--title{
     position: absolute;
-    top: 15px;
+    top: 0px;
     left: 25%;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 46px;
     transform: translateX(-50%);
     animation: turtleTitle 2s;
-    font-family: Comics;
+    font-family: 'Pacifico', sans-serif ;
+    line-height: 1.2;
 }
 
 @keyframes turtleTitle {

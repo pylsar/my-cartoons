@@ -1,12 +1,12 @@
 .miniCard{
     position: relative;
     display: flex;
-    padding: 20px 40px;
+    padding: 20px 60px;
     &--title{
         text-align: center;
     }
     &__card{
-        width: 300px;
+        width: 350px;
         height: 500px;
         background: linear-gradient(#bdf, #def 20%, #7ac 55%);
         display: flex;
@@ -14,7 +14,7 @@
         flex-direction: column;
     }
     &__hide{
-        width: 300px;
+        width: 350px;
         height: 500px;
         background: linear-gradient(#bdf, #def 20%, #7ac 55%);
         padding: 10px 20px;
@@ -38,7 +38,7 @@
         }
     }   
     & img {
-        width: 300px;
+        width: 350px;
     }
     &__btn {
         display: block;
