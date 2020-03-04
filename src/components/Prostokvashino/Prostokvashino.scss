@@ -11,6 +11,9 @@
             height: 50px;
             cursor: pointer;
             border: 1px solid red;
+            &--active{
+                background: green;
+            }
         }
     } 
     &__box {

@@ -10,7 +10,7 @@ class Prostokvashino extends React.Component {
     state={
         tabFedor: true,
         tabMatroskin: false,
-        tabSharik: false
+        tabSharik: false,
     }
 
     handleFedor = () => {
@@ -42,9 +42,21 @@ class Prostokvashino extends React.Component {
             <div class="prosto">
                 <h1>Трое из Простоквашино</h1>
                 <div className="tabs">
-                    <div className="tabs__item" onClick={this.handleFedor}>дядя Фёдор</div>
-                    <div className="tabs__item" onClick={this.handleMatroskin}>кот Матроскин</div>
-                    <div className="tabs__item" onClick={this.handleSharik}>Шарик</div>
+                    <div 
+                        className={`tabs__item ${this.state.tabFedor ? 'tabs__item--active' : ''}`}                       
+                        onClick={this.handleFedor}
+                        >дядя Фёдор
+                    </div>
+                    <div 
+                        className={`tabs__item ${this.state.tabMatroskin ? 'tabs__item--active' : ''}`} 
+                        onClick={this.handleMatroskin}
+                        >кот Матроскин
+                    </div>
+                    <div 
+                        className={`tabs__item ${this.state.tabSharik ? 'tabs__item--active' : ''}`} 
+                        onClick={this.handleSharik}
+                        >Шарик
+                    </div>
                 </div>
                 {this.state.tabFedor ? 
                     <div>
@@ -82,9 +94,6 @@ class Prostokvashino extends React.Component {
                     </div>
                 </div> 
                 : ''}
-
-                
-
             </div>
         )
     }
