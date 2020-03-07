@@ -1,0 +1,29 @@
+.tom {
+    height:calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__box {
+        overflow: hidden;
+    }
+    p{
+        overflow: hidden;
+        white-space: nowrap;
+        animation: taj_type 5s;
+        font-family: 'Pacifico', sans-serif;
+        margin-top: 20px;
+    }
+    & img {
+        width: 280px;
+        margin-right: 20px;
+    }
+}
+  
+  @keyframes taj_type {
+    0%{
+      width: 0%;
+    }
+     100% {
+      width: 100%
+    }
+  }

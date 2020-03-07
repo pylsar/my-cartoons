@@ -2,10 +2,55 @@
     &__box{
         display: flex;
         justify-content: space-around;
-        margin: 30px 0;
+        margin: 80px 0;
         & img{
             max-width: 400px;
         }
     }
+    &__title{
+        position: absolute;
+        top: 15%;
+        left: calc(50% + 65px);
+        transform: translateX(-50%);
+        width: 100%;
+        & span {
+            display: flex;
+            justify-content: center;
+        }
+        &--text {
+            font-size: 40px;
+            font-weight: 700;
+            animation: taj 3s;
+            margin-bottom: -30px;
+        }
+        &--subtext {
+            font-size: 10px;
+            opacity: 0;
+            font-weight: 700;
+            line-height: 2;
+            animation: taj_sub 3s;
+        }
+    }
+}
 
+@keyframes taj {
+  0%{
+    margin-bottom: -30px;
+  }
+  30%{
+    margin-bottom: 0px;
+    letter-spacing: 20px;
+  }
+  100%{
+    letter-spacing: 0px;
+  }
+}
+
+@keyframes taj_sub {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity:1;
+  }
 }

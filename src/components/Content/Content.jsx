@@ -14,6 +14,8 @@ import Donatello from '../MultTurtles/Donatello/Donatello'
 import Rafael from '../MultTurtles/Rafael/Rafael'
 import Mikelandjelo from '../MultTurtles/Mikelandjelo/Mikelandjelo'
 import TomAndJerry from '../TomAndJerry/TomAndJerry'
+import Tom from '../TomAndJerry/Tom/Tom'
+import Jerry from '../TomAndJerry/Jerry/Jerry'
 
 import './Content.scss'
 
@@ -33,6 +35,8 @@ const Content = () => {
             <Route path="/ninja-turtles/rafael" component={Rafael} exact />
             <Route path="/ninja-turtles/mikelandjelo" component={Mikelandjelo} exact />
             <Route path="/tom-and-jerry" component={TomAndJerry} exact />
+            <Route path="/taj/tom" component={Tom} exact />
+            <Route path="/taj/jerry" component={Jerry} exact />
         </div>
         </Switch>
     )
