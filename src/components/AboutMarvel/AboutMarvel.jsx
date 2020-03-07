@@ -2,6 +2,8 @@ import React from 'react'
 
 import './AboutMarvel.scss'
 import marvelIcon from '../../assets/img/marvel.jpg'
+import captainIcon from '../../assets/img/captan_america.png'
+import hulkIcon from '../../assets/img/hulk.png'
 
 const AboutMarvel = () => {
     return (
@@ -11,10 +13,10 @@ const AboutMarvel = () => {
                 <h1>Marvel</h1>
             </div>
                 <div className="marvel__left">
-                123
+                <img src={hulkIcon} alt="Халк"/>
                 </div>
                 <div className="marvel__right">
-                sdf
+                <img src={captainIcon} alt="Капитан Америка"/>
                 </div>
                 <div className="marvel__text">
                     <p>Американская компания, издающая комиксы, подразделение корпорации Marvel Entertainment. Получившая среди поклонников комиксов прозвище «Дом идей». Большинство персонажей комиксов Marvel обитают в одной вымышленной вселенной, получившей название Земля-616.</p>
