@@ -1,7 +1,7 @@
-.tom {
+.tajCard {
     height:calc(100vh - 70px);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     &__box {
         overflow: hidden;
@@ -15,7 +15,6 @@
     }
     & img {
         width: 280px;
-        margin-right: 20px;
     }
 }
   
