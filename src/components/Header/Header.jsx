@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import axios from 'axios'
 
 import './Header.scss'
+import WaltDisneyIcon from '../../assets/img/walt_disney.jpg'
 
 class Header extends React.Component {
 
@@ -23,7 +24,7 @@ class Header extends React.Component {
 
         return (
             <header className="header">
-                <Link to="/"className="header__logo"><img className="header__logo--img" src="" alt="logo" /></Link>
+                <Link to="/"className="header__logo"><img className="header__logo--img" src={WaltDisneyIcon} alt="logo" /></Link>
                 <nav>
                     <ul className="header__list">
                         {this.state.cartoons.map((cartoon, index) => {

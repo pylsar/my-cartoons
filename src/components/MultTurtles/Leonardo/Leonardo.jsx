@@ -11,7 +11,7 @@ const Leonardo = () => {
         <div className="turtle">
             <div className="turtle__box">
                 <TurtleTitle title="Леонардо" />
-                <img class="turtle__img" src={leonardoBigIcon} alt="Леонардо"/>
+                <img className="turtle__img" src={leonardoBigIcon} alt="Леонардо"/>
                 <div className="turtle__box__content">
                     <ul>
                         < TurtleList name="имя: Леонардо"/>

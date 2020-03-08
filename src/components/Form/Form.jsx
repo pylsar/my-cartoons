@@ -26,13 +26,6 @@ class Form extends React.Component {
         })
     }
 
-    // handleClick = () => {
-    //     this.setState({
-    //         value: null
-    //     })
-    // }
-
-
     render(){
         return (
             <div className="form">

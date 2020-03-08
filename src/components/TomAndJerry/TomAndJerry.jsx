@@ -9,8 +9,8 @@ const TomAndJerry = () => {
     return (
         <div className='taj'>
             <h1 className="taj__title">
-                <span class="taj__title--text">Том и Джерри</span>
-                <span class="taj__title--subtext">Уильям Ханна и Джозеф Барбара</span>
+                <span className="taj__title--text">Том и Джерри</span>
+                <span className="taj__title--subtext">Уильям Ханна и Джозеф Барбара</span>
             </h1>
             <div className="taj__box">
                 <Link to="/taj/tom"><img src={TomIcon} alt="Tom"/></Link>
